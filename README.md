@@ -25,13 +25,13 @@ Before you start, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/degod/petshop-api.git
+   git clone https://github.com/degod/task-manager.git
    ```
 
 2. **Navigate to the project directory:**
 
 	```bash
-	cd petshop-api/
+	cd task-manager/
 	```
 
 3. **Install Composer dependencies:**
@@ -55,7 +55,7 @@ Before you start, ensure you have the following installed:
 6. **Completing the setup:**
 
 	```bash
-	php artisan migrate:fresh && php artisan db:seed && ./vendor/bin/pint --preset psr12 && ./vendor/bin/phpstan analyse && php artisan test
+	php artisan migrate:fresh && php artisan test
 	```
 
 7. **Exiting container shell:**
@@ -67,9 +67,8 @@ Before you start, ensure you have the following installed:
 8. **Accessing the application:**
 
 - The application should now be running on your local environment.
-- Navigate to `http://petshop-api.test` in your browser to access the application.
-- For API documentation, visit `http://petshop-api.test/api/documentation#/`.
-- To access the database, go to `http://petshop-api.test:8001/`.
+- Navigate to `http://task-manager.test` in your browser to access the application.
+- To access the database, go to `http://task-manager.test:8001/`.
 
 ## Contributing
 
